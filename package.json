@@ -1,0 +1,23 @@
+{
+  "name": "electron-music-app",
+  "version": "1.0.0",
+  "description": "A Electron music application",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --watch main.js --exec electron ."
+  },
+  "repository": "https://github.com/dbjchan1121/electron-music-app",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "307400468@qq.com",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^18.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
